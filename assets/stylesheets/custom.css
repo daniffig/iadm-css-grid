@@ -1,7 +1,65 @@
+
+
+/* Colors */
+.blue {
+    color: #3289C8;
+}
+
+.light-grey {
+    color: #aaaaaa;
+}
+
 body {
 }
 
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+footer {
+    background-color: #257aba;
+    color: #ffffff;
+}
+
 .box {
-  border: 1px solid grey;
-  margin-bottom: 2vh;
+    border: 1px solid #eeeeee;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.object {
+}
+
+.object header > h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.object header > .object-last-updated {
+    font-style: italic;
+}
+
+.panel {
+}
+
+.panel header > h1 {
+    border-bottom: 1px solid #dddddd;
+    color: #aaaaaa;
+    font-size: 1em;
+}
+
+#objects-container {
+    
+}
+
+#side-panel {
+
+}
+
+@media only screen and (min-width: 768px) {
+    #side-panel {
+        padding-left: 30px;    
+    }
 }
