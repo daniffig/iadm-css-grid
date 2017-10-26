@@ -128,3 +128,11 @@ footer {
 .action a {
     color: #555555;
 }
+
+#sort-panel {
+    padding: 15px;
+}
+
+#sort-panel a {
+    color: #555555;    
+}
