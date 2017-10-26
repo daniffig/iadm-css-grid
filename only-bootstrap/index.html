@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>IADM 2014 - Only Bootstrap</title>
   <link href="../assets/stylesheets/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/stylesheets/font-awesome.min.css" rel="stylesheet">
+  <link href="../assets/stylesheets/font-awesome.min.css" rel="stylesheet">  
   <link href="../assets/stylesheets/custom.css" rel="stylesheet">
-  <script src="./assets/javascripts/jquery-3.2.1.min.js"></script>
+  <script src="../assets/javascripts/jquery-3.2.1.min.js"></script>
   <script src="../assets/javascripts/bootstrap.min.js"></script>
 </head>
 <body>
@@ -39,97 +40,211 @@
       </div>
     </div>
     <div class="row">
-      <div id="objects-container" class="col-sm-9">
-        <div class="row box">
-          <article class="object">
-            <div class="col-xs-9">
-              <header>
-                <h1 class="object-title">object #1</h1>
-                <p class="object-last-updated light-grey">last updated 2017-10-31 23:59 by john.q</p>
-              </header>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-sm-9"> 
+      
+        <!-- object #1 -->     
+        <article class="box object-box">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-xs-9">
+                  <header>
+                    <h1 class="object-title">object #1</h1>
+                    <p class="object-last-updated light-grey">last updated 2017-10-31 23:59 by john.q</p>
+                  </header>
+                </div>
+                <div class="col-xs-3 text-right">
+                  <div class="btn-group object-actions-button">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right object-actions">
+                      <li class="object-action">                
+                        <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-pencil fa-fw yellow"> </i>edit</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-download fa-fw blue"> </i>download</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-times fa-fw red"> </i>delete</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-eye fa-fw"> </i>audit</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>     
+                </div>
+              </div>
             </div>
-            <div class="col-xs-3 object-actions-container">
-              <ul class="object-actions">
-                <li class="object-action">                
-                  <a class=""><i class="fa fa-search fa-fw blue"> </i>show</a>
-                </li>
-                <li class="object-action"><a class="">edit</a></li>
-                <li class="object-action"><a class="">download</a></li>
-                <li class="object-action"><a class="">delete</a></li>
-                <li class="object-action"><a class="">audit</a></li>
+          </div>      
+        </article>   
+        
+        <!-- object #2 -->     
+        <article class="box object-box">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-xs-9">
+                  <header>
+                    <h1 class="object-title">object #2</h1>
+                    <p class="object-last-updated light-grey">last updated 2017-10-31 23:59 by john.q</p>
+                  </header>
+                </div>
+                <div class="col-xs-3 text-right">
+                  <div class="btn-group object-actions-button">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right object-actions">
+                      <li class="object-action">                
+                        <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-pencil fa-fw yellow"> </i>edit</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-download fa-fw blue"> </i>download</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-times fa-fw red"> </i>delete</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-eye fa-fw"> </i>audit</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+                </div>
+              </div>
+            </div>
+          </div>      
+        </article> 
+        
+        <!-- object #3 -->     
+        <article class="box object-box">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-xs-9">
+                  <header>
+                    <h1 class="object-title">object #3</h1>
+                    <p class="object-last-updated light-grey">last updated 2017-10-31 23:59 by john.q</p>
+                  </header>
+                </div>
+                <div class="col-xs-3 text-right">
+                  <div class="btn-group object-actions-button">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right object-actions">
+                      <li class="object-action">                
+                        <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-pencil fa-fw yellow"> </i>edit</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-download fa-fw blue"> </i>download</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-times fa-fw red"> </i>delete</a>
+                      </li>
+                      <li class="object-action">
+                        <a href="#"><i class="fa fa-eye fa-fw"> </i>audit</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>    
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>       
+                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>  
+                </div>
+              </div>
+            </div>
+          </div>      
+        </article>    
+        
+        <section class="">
+          <div class="row">
+            <div class="col-xs-9 text-center">
+              <ul class="pagination">
+                <li class="active"><a>1</a></li>
+                <li><a>2</a></li>
+                <li><a>3</a></li>
+                <li><a>4</a></li>
+                <li><a>5</a></li>
+                <li class="disabled"><a>...</a></li>
+                <li><a>›</a></li>
+                <li><a>last »</a></li>
               </ul>
             </div>
-          </article>        
-        </div>
-          
-          <article class="row box entry">
-            <div class="col-xs-9">
-              <header>
-                <h1>object #2</h1>
-              </header>
+            <div class="col-xs-3 text-right">
+              <p class="paginator-results">10 results (page 1/6)</p>
             </div>
-            <div class="col-xs-3">
-              object actions
-            </div>
-          </article>
-            
-          <article class="row box entry">
-            <div class="col-xs-9">
-              <header>
-                <h1>object #3</h1>
-              </header>
-            </div>
-            <div class="col-xs-3">
-              object actions
-            </div>
-          </article>    
+          </div>
         
+        </section>             
       </div>
       
       <!-- Side panel -->
       <div id="side-panel" class="col-sm-3">
-        
-        <section class="row box panel">
-          <div class="col-xs-12">
-            <header>
-              <h1><i class="fa fa-gears"> </i>actions</h1>
-            </header>
-            <ul class="actions">
-              <li class="action">new</li>
-            </ul>            
-          </div>
+        <section class="box panel-box">
+          <header>
+            <h1><i class="fa fa-gears"> </i>actions</h1>
+          </header>
+          <ul class="actions">
+            <li class="action">new</li>
+          </ul>                      
         </section>
-        
-        <div class="row box panel">
-          <div class="col-xs-12">              
-            <header>
-              <h1>filters</h1>
-            </header>
-            <form>
-              <div class="form-group">
-                <label class="control-label">attribute #1</label>
-                <select class="form-control">
-                  <option>value #1</option>
-                  <option>value #2</option>
-                  <option>value #3</option>
-                </select>
-                
-              </div>
-              <se
-            
-            </form>
-          </div>
-        </div>
-        
-      </div>
-      
+        <section class="box panel-box">            
+          <header>
+            <h1><i class="fa fa-filter"> </i>filters</h1>
+          </header>
+          <form>
+            <div class="form-group">
+              <label class="control-label">attribute #1</label>
+              <select class="form-control">
+                <option>value #1</option>
+                <option>value #2</option>
+                <option>value #3</option>
+              </select>              
+            </div>  
+            <div class="form-group">
+              <label class="control-label">attribute #2</label>
+              <select class="form-control">
+                <option>value #1</option>
+                <option>value #2</option>
+                <option>value #3</option>
+              </select>              
+            </div>  
+            <div class="form-group">
+              <label class="control-label">attribute #3</label>
+              <input type="text" class="form-control"></input>
+            </div>  
+            <div class="form-group">
+              <a class="btn btn-default btn-sm"><i class="fa fa-undo"> </i>reset</a>
+              <button class="btn btn-success btn-sm" type="submit"><i class="fa fa-search"> </i>filter</button>      
+            </div>
+          </form>
+        </section>        
       </div>
     </div>
   </div>
   
   <footer>
-  IADM 2014
+    <p class="text-center">
+      lucio.digiacomo@iadm2014
+    </p>
   </footer>
   
 </body>
