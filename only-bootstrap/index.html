@@ -6,6 +6,7 @@
   <link href="../assets/stylesheets/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/stylesheets/font-awesome.min.css" rel="stylesheet">  
   <link href="../assets/stylesheets/custom.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <script src="../assets/javascripts/jquery-3.2.1.min.js"></script>
   <script src="../assets/javascripts/bootstrap.min.js"></script>
 </head>
@@ -54,8 +55,8 @@
                   </header>
                 </div>
                 <div class="col-xs-3 text-right">
-                  <div class="btn-group object-actions-button">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                  <div class="btn-group object-actions-button-container">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-bars"></span></button>
                     <ul class="dropdown-menu dropdown-menu-right object-actions">
                       <li class="object-action">                
                         <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
@@ -98,8 +99,8 @@
                   </header>
                 </div>
                 <div class="col-xs-3 text-right">
-                  <div class="btn-group object-actions-button">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                  <div class="btn-group object-actions-button-container">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-bars"></span></button>
                     <ul class="dropdown-menu dropdown-menu-right object-actions">
                       <li class="object-action">                
                         <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
@@ -141,8 +142,8 @@
                   </header>
                 </div>
                 <div class="col-xs-3 text-right">
-                  <div class="btn-group object-actions-button">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-down"></span></button>
+                  <div class="btn-group object-actions-button-container">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-bars"></span></button>
                     <ul class="dropdown-menu dropdown-menu-right object-actions">
                       <li class="object-action">                
                         <a href="#"><i class="fa fa-search fa-fw blue"> </i>show</a>
@@ -174,7 +175,7 @@
           </div>      
         </article>    
         
-        <section class="">
+        <section id="pagination-panel">
           <div class="row">
             <div class="col-xs-9 text-center">
               <ul class="pagination">
@@ -189,42 +190,45 @@
               </ul>
             </div>
             <div class="col-xs-3 text-right">
-              <p class="paginator-results">10 results (page 1/6)</p>
+              <p class="paginator-results">16 results (page 1/6)</p>
             </div>
-          </div>
-        
+          </div>        
         </section>             
       </div>
       
       <!-- Side panel -->
       <div id="side-panel" class="col-sm-3">
-        <section class="box panel-box">
+        <section id="actions-panel" class="box panel-box">
           <header>
-            <h1><i class="fa fa-gears"> </i>actions</h1>
+            <h1><i class="fa fa-gears fa-fw"> </i>actions</h1>
           </header>
           <ul class="actions">
-            <li class="action">new</li>
+            <li class="action">
+              <a href="#"><i class="fa fa-plus-circle fa-fw green"> </i>new</a>
+            </li>
+            <li class="action">
+              <a href="#"><i class="fa fa-eye fa-fw"> </i>audit</a>
+            </li>
           </ul>                      
         </section>
-        <section class="box panel-box">            
+        <section id="filters-panel" class="box panel-box">            
           <header>
-            <h1><i class="fa fa-filter"> </i>filters</h1>
+            <h1><i class="fa fa-filter fa-fw"> </i>filters</h1>
           </header>
           <form>
             <div class="form-group">
               <label class="control-label">attribute #1</label>
               <select class="form-control">
-                <option>value #1</option>
-                <option>value #2</option>
-                <option>value #3</option>
+                <option>value#1@attribute#1</option>
+                <option>value#2@attribute#1</option>
+                <option>value#3@attribute#1</option>
               </select>              
             </div>  
             <div class="form-group">
               <label class="control-label">attribute #2</label>
               <select class="form-control">
-                <option>value #1</option>
-                <option>value #2</option>
-                <option>value #3</option>
+                <option>value#1@attribute#2</option>
+                <option>value#2@attribute#2</option>
               </select>              
             </div>  
             <div class="form-group">
