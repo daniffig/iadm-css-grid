@@ -1,35 +1,6 @@
-/* Colors - BEGIN */
-
-.blue {
-    color: #3289C8;
-}
-
-.yellow {
-    color: #f39c12;
-}
-
-.red {
-    color: #e74c3c;
-}
-
-.green {
-    color: #5cb85c;
-}
-
-.light-grey {
-    color: #aaaaaa;
-}
-
-/* Colors - END */
-
-body {
+body {  
     background-color: #f3f3f3;
     color: #555555;
-}
-
-ul {
-    padding-left: 0;
-    list-style-type: none;
 }
 
 footer {
@@ -45,24 +16,11 @@ footer {
     background-color: #ffffff;
     border: 1px solid #eeeeee;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px 0px;
-    display: block;
     padding: 0 15px;
     margin-bottom: 15px;
 }
 
-.object-actions-button-container {
-    margin-top: 20px;    
-}
-
-.object-actions > li > a {
-    color: #555555;
-    padding: 3px 20px 3px 10px;
-}
-
-.object {
-}
-
-.object-box header > h1 {
+.object-box header > h2 {
     font-size: 2em;
     margin-bottom: 0;
 }
@@ -75,64 +33,13 @@ footer {
     text-align: justify;
 }
 
-.object-actions-container {
-    padding-top: 10px;
+.object-actions-button-container {
+    margin-top: 20px;
 }
 
-.object-actions {
-}
-
-.object-action a {
-    margin-bottom: 5px;
-    text-align: left;
-    width: 100%;    
-}
-
-.pagination {
-/*    margin: 0;*/
-}
-
-.pagination > li {
-    cursor: pointer;
-}
-
-.pagination > li > a,
-.pagination > li > a:hover {
-    color: #5cb85c;
-}
-
-.pagination > .active > a,
-.pagination > .active > a:hover {
-    background-color: #5cb85c;
-    border-color: #5cb85c;
-}
-
-.paginator-results {
-    margin: 20px 0;
-}
-
-.panel-box {
-}
-
-.panel-box header > h1 {
+.panel-box header > h2 {
     border-bottom: 1px solid #eeeeee;
     color: #aaaaaa;
     font-size: 1em;
     padding-bottom: 10px;
-}
-
-.object-actions {
-    min-width: 140px;
-}
-
-.action a {
-    color: #555555;
-}
-
-#sort-panel {
-    padding: 15px;
-}
-
-#sort-panel a {
-    color: #555555;    
 }
