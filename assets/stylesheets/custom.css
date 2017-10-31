@@ -1,10 +1,21 @@
 body {  
     background-color: #f3f3f3;
     color: #555555;
+    padding-top: 0;
+}
+
+body > header {
+    background-color: #4e8975;
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
 }
 
 footer {
-    background-color: #5cb85c;
+    background-color: #4e8975;
     color: #ffffff;
     font-size: 1.2em;
     margin-top: 40px;
@@ -19,6 +30,8 @@ footer {
     padding: 0 15px;
     margin-bottom: 15px;
 }
+
+/* Object box - BEGIN */ 
 
 .object-box header > h2 {
     font-size: 2em;
@@ -37,9 +50,46 @@ footer {
     margin-top: 20px;
 }
 
+.object-actions-container {
+    padding-top: 10px;
+}
+
+.object-actions {
+    min-width: 140px;
+}
+
+.object-actions > li > a {
+    color: #555555;
+    padding: 3px 20px 3px 10px;
+}
+
+.object-action a {
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;    
+}
+
+/* Object box - END */ 
+
+/* Panel box - BEGIN */ 
+
 .panel-box header > h2 {
     border-bottom: 1px solid #eeeeee;
     color: #aaaaaa;
     font-size: 1em;
     padding-bottom: 10px;
 }
+
+.action a {
+    color: #555555;
+}
+
+/* Panel box - END */ 
+
+/* Pagination - BEGIN */
+
+.pagination > li {
+    cursor: pointer;
+}
+
+/* Pagination - END */
